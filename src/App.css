@@ -1,0 +1,52 @@
+/* App.css */
+
+/* General styling for the app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styling for the buttons container */
+.button-container {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  margin-bottom: 20px; /* Space below buttons */
+}
+
+/* Styling for the navigation buttons */
+.nav-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Specific styling for the Jobs button */
+.jobs-btn {
+  background-color: #007bff; /* Blue color */
+}
+
+/* Specific styling for the Bookmarks button */
+.bookmarks-btn {
+  background-color: #28a745; /* Green color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    gap: 10px; /* Reduced space between buttons */
+  }
+
+  .nav-button {
+    padding: 10px 20px; /* Smaller padding for smaller screens */
+    font-size: 14px; /* Smaller font size for smaller screens */
+  }
+}
