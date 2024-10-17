@@ -2,7 +2,7 @@
   "name": "leaderboard-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:ajayraj1515.github.io/job_list", // Replace with your GitHub username and repo name
+  "homepage": "https:ajayraj1515.github.io/job_list",
   "dependencies": {
     "@craco/craco": "6.4.3",
     "@testing-library/jest-dom": "5.16.1",
@@ -21,7 +21,7 @@
     "start": "craco start",
     "build": "craco build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build", // Add these two lines
+    "deploy": "gh-pages -d build",
     "test": "craco test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
